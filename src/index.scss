@@ -82,6 +82,16 @@ body {
       }
     }
 
+    .action-svg svg {
+      fill: rgba(0, 0, 0, 0.2);
+      opacity: 0.5;
+      transition: opacity 0.2s ease-in;
+      
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+
     h3 {
       margin: 0;
       font-weight: 900;
